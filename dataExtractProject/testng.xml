@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.lbi.dataExtract" parallel="methods" thread-count="5">
+    <test name="runClass">
+        <classes>
+            <class name="ReadDataClass" />
+        </classes>
+    </test>
+</suite>
